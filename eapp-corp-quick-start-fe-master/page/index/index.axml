@@ -1,0 +1,26 @@
+<view>
+    <button type="primary" size="" onTap="loginSystem"> 点击登录 </button>
+    <view class="row">CorpId:{{corpId}}</view>
+
+    <view hidden="{{hideList}}">
+        <view class="row">AuthCode:{{authCode}}</view>
+        <view class="row">userId:{{userId}}</view>
+        <view class="row">name:{{userName}}</view>
+    </view>
+    <button type="primary" size="" onTap="openBluetoothAdapter"> 打开蓝牙适配器 </button>
+    <button type="primary" size="" onTap="getBlueStatus"> 获取蓝牙状态 </button>
+    <button type="primary" size="" onTap="startBluetoothDevicesDiscovery"> 搜索蓝牙设备 </button>
+    <button type="primary" size="" onTap="stopBluetoothDevicesDiscovery"> 停止搜索蓝牙设备 </button>
+    <button type="primary" size="" onTap="getBluetoothDevices"> 获取已搜索到的设备 </button>
+    <button type="primary" size="" onTap="getBLEDeviceServices"> 获取蓝牙设备所有 service（服务） </button>
+    <button type="primary" size="" onTap="getConnectedBluetoothDevices"> 获取已经连接到的蓝牙设备 </button>
+    <button type="primary" size="" onTap="connectBLEDevice"> 连接设备 </button>
+    <button type="primary" size="" onTap="disconnectBLEDevice"> 断开连接 </button>
+    <button type="primary" size="" onTap="stopBluetoothDevicesDiscovery"> 停止搜索 </button>
+    <button type="primary" size="" onTap="writeBLECharacteristicValue"> 写入数据 </button>
+    <button type="primary" size="" onTap="readBLECharacteristicValue"> 读蓝牙设备值中的数据 </button>
+    <button type="primary" size="" onTap="closeBluetoothAdapter"> 关闭蓝牙适配器 </button>
+    <button type="primary" size="" onTap="getBLEDeviceCharacteristics"> 获取蓝牙设备所有 characteristic（特征值） </button>
+    
+    
+</view>
